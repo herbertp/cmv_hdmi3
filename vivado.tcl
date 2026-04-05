@@ -2,14 +2,13 @@
 #	MicroZed simple build script
 #	Version 1.0
 # 
-# Copyright (C) 2015 H.Poetzl
+# Copyright (C) 2015-2026 H.Poetzl
 
 set ODIR .
 set NAME cmv_hdmi
 set_param messaging.defaultLimit 10000
 set_param place.sliceLegEffortLimit 2000
-set_param board.repoPaths [list /opt/Xilinx/XilinxBoardStore/2021.1/boards]
-
+set_param board.repoPaths [list /opt/Xilinx/XilinxBoardStore/2025.2/boards]
 
 # STEP#1: setup design sources and constraints
 
