@@ -1019,7 +1019,7 @@ begin
 	    m_axi0_awsize => m_axi0_wo.awsize,
 	    m_axi0_awprot => m_axi0_wo.awprot,
 	    m_axi0_awvalid => m_axi0_wo.awvalid,
-	    m_axi0_awready => m_axi0_wi.wready,
+	    m_axi0_awready => m_axi0_wi.awready,
 	    --
 	    m_axi0_wid => m_axi0_wo.wid,
 	    m_axi0_wdata => m_axi0_wo.wdata,
