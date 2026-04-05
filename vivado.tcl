@@ -14,14 +14,14 @@ set_param board.repoPaths [list /opt/Xilinx/XilinxBoardStore/2021.1/boards]
 # STEP#1: setup design sources and constraints
 
 read_vhdl -vhdl2008 ../addr_gen.vhd
-read_vhdl -vhdl2008 ../addr_dbuf.vhd
+#read_vhdl -vhdl2008 ../addr_dbuf.vhd
 read_vhdl -vhdl2008 ../addr_qbuf.vhd
 read_vhdl -vhdl2008 ../async_div.vhd
 read_vhdl -vhdl2008 ../axihp_reader.vhd
 read_vhdl -vhdl2008 ../axihp_writer.vhd
 read_vhdl -vhdl2008 ../axi_lite.vhd
-read_vhdl -vhdl2008 ../axi_split.vhd
-read_vhdl -vhdl2008 ../axi_split4.vhd
+#read_vhdl -vhdl2008 ../axi_split.vhd
+#read_vhdl -vhdl2008 ../axi_split4.vhd
 read_vhdl -vhdl2008 ../axi_split8.vhd
 read_vhdl -vhdl2008 ../bram_lut.vhd
 read_vhdl -vhdl2008 ../cfg_lut5.vhd
@@ -29,7 +29,6 @@ read_vhdl -vhdl2008 ../cmv_pll.vhd
 read_vhdl -vhdl2008 ../cmv_serdes.vhd
 read_vhdl -vhdl2008 ../cmv_spi.vhd
 read_vhdl -vhdl2008 ../color_matrix.vhd
-read_vhdl -vhdl2008 ../data_filter.vhd
 read_vhdl -vhdl2008 ../data_sync.vhd
 read_vhdl -vhdl2008 ../dsp48_wrap.vhd
 read_vhdl -vhdl2008 ../enc_ctrl.vhd
@@ -54,15 +53,14 @@ read_vhdl -vhdl2008 ../reg_mem.vhd
 read_vhdl -vhdl2008 ../reg_pll.vhd
 read_vhdl -vhdl2008 ../reg_spi.vhd
 read_vhdl -vhdl2008 ../remap_4x4.vhd
-read_vhdl -vhdl2008 ../remap_shuffle.vhd
+#read_vhdl -vhdl2008 ../remap_shuffle.vhd
 read_vhdl -vhdl2008 ../reset_sync.vhd
-read_vhdl -vhdl2008 ../rgb_dvid.vhd
+#read_vhdl -vhdl2008 ../rgb_dvid.vhd
 read_vhdl -vhdl2008 ../rgb_hdmi.vhd
-read_vhdl -vhdl2008 ../row_col_noise.vhd
+#read_vhdl -vhdl2008 ../row_col_noise.vhd
 read_vhdl -vhdl2008 ../scan_comp.vhd
 read_vhdl -vhdl2008 ../scan_hdmi.vhd
 read_vhdl -vhdl2008 ../scan_event.vhd
-read_vhdl -vhdl2008 ../scan_pong.vhd
 read_vhdl -vhdl2008 ../ser_to_par.vhd
 read_vhdl -vhdl2008 ../serdes_wrap.vhd
 read_vhdl -vhdl2008 ../sync_delay.vhd
